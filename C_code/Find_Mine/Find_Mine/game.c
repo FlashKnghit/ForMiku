@@ -72,6 +72,7 @@ void FindMine(char show[ROWS][COLS], char mine[ROWS][COLS], int row, int col)
 				{
 					DisplayBoard(mine, row, col);
 					printf("∫‹“≈∫∂£¨ƒ˙±ª’®À¿¡À£°\n");
+					return 0;
 				}
 				else
 				{
